@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+}
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+/********************classes to remove bottom scrollbar**********************/
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .example::-webkit-scrollbar {
+    display: none;
+}
+/********************classes to remove bottom scrollbar**********************/
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+li{
+    list-style: none;
+}
+    p{
+        font-size: 1rem;
+        line-height:1.6;
+        font-weight:400;
+        color:#606060;
+    }
+    a{
+        background-color:linear-gradient(rgba(0, 170, 255, 0.5),  rgba(0, 170, 255, 0.6));
+        ;
+    }
+.header{
+    text-shadow: 3px 3px 4px grey;
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 170, 255, 0.7),  rgba(0, 170, 255, 0.7)), url('bat6.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 49% 100%, 0 75%);
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.header-section{
+    width: 100vw;
+    height: inherit;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header a:hover{
+    color: #fff;
+}
+.header-section h1{
+    text-shadow: 3px 3px 4px grey;
+}
+.header-section p{
+    text-shadow: 3px 3px 4px grey;
+}
+.btn{
+    border-radius: 50px;
+    border-color: white;
+    font-size: 1.2rem;
+    width: 110px;
+    
+    
+}
+
+.navbar{
+    background:linear-gradient(rgba(0, 170, 255, 0.6),  rgba(0, 170, 255, 0.6));
+    z-index: -auto;
+
+}
+img{
+    border: 2px solid white;
+    
+   
+}
+
+/**<!--***************Three cards start************************** -->**/
+.shadow-lg:hover{
+    transform: translatey(-20px);
+    box-shadow:5px 5px 5px 5px rgb(201, 201, 201, 0.3);
+    transition: 0.3s;
+    
+   
+    
+}
+/**<!--***************Thrid Section Ends************************** -->**/
+/**<!--***************Pricing Section start************************** -->**/
+h5{
+    font-size: 1rem;
+    line-height:1.6;
+    font-weight:400;
+    color:#606060;
+}
+
+.dow-lg:hover{
+    transform: translatey(-10px);
+    color: red;
+    transition: 0.7s;
+}
+.Pricing h1{
+    text-shadow: 3px 3px 4px grey;
+}
+
+/**<!--***************Pricing Section Ends************************** -->**/
+/**<!--***************Fourth jquery no's Section Starts************************** -->**/
+.Header-style{
+    font-size: 1.5rem;
+    line-height:1.6;
+    font-weight:400;
+    color:#606060;
+}
+/**<!--***************Fourth jquery no's Section Starts************************** -->**/
+
+/**<!--***************Three cards Pricing Section Starts************************** -->**/
+
+
+.Pricing{
+    
+    background:linear-gradient(159deg,rgba(0, 170, 255, 0.8) 50%,#fff 50%) ;
+    
+   
+    
+}
+.out{
+    border-color: rgba(0,170, 255, 0.5);
+    width: 135px;
+}
+.rounded-lg:hover .card-body span{
+    color: rgba(0,170, 255, 1);;
+}
+.rounded-lg:hover .card-header h2{
+    color: rgba(0,170, 255, 1);;
+}
+.rounded-lg:hover .card-footer button{
+    background-color: rgba(0,170, 255, 1);
+    color: #fff;
+}
+
+
+
+/**<!--***************Three cards Pricing Section Ends************************** -->**/
+
+/**<!--***************Fourth Our Customer Feedback Section Start************************** -->**/
+
+.carousel-indicators{
+    position: absolute;
+    bottom: -75px!important;
+    margin-bottom: 45px;
+}
+.carousel-indicators li{
+    background-color:  rgba(0,170, 255, 1);
+}
+.feedback:hover{
+    background-color:  rgba(0,170, 255, 1);
+    color: #fff;
+}
+.feedback:hover p{
+    color: #fff;
+}
+.feedback:hover .card-text small{
+    color: #fff;
+}
+.feedback:hover .card-body h4{
+    color: #fff;
+}
+.fa-quote-left{
+    position: absolute;
+    top: 60px;
+    right: 121px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    border: 2px solid rgba(0,170, 255, 1);
+    border-radius: 50px;
+    color: #fff;
+    background-color:rgba(0,170, 255, 1); ;
+    
+}
+/**<!--***************Fourth Our Customer Feedback Section Ends************************** -->**/
+/**<!--***************Contact us Section Starts************************** -->**/
+.contactus{
+    background:linear-gradient(20deg,rgba(0, 170, 255, 0.8) 50%,#fff 50%) ;
+    
+    
+}
+.btnfom button{
+    background-color:rgba(0,170, 255, 0.8); ;
+}
+/**<!--***************Contact Us Section Starts************************** -->**/
+
+/**<!--***************NewsLetter Section Starts************************** -->**/
+.nlr{
+    border-radius: 100px 0 0 100px;
+    height: 50px;
+    
+}
+.nlr1{
+        border-radius: 0 100px  100px 0;
+        background-color: rgba(0,170, 255, 0.8); 
+        color: #fff;
+    
+}
+/**<!--***************NewsLetter Section Ends************************** -->**/
+/**<!--***************Footer Section Starts************************** -->**/
+.footersec{
+    background-color: rgba(0,170, 255, 0.8); ;
+}
+.footersec h3{
+    color: #fff;
+    text-shadow: 2px 2px 4px grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footersec p{
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/**<!--***************Footer Section Ends************************** -->**/
+/**<!--***************Scroll button Start************************** -->**/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(0,170, 255, 1); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  /**<!--***************Scroll button Ends************************** -->**/
+  /**<!--***************Media Quries starts************************** -->**/
+@media(max-width:572px){
+    .media{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media(max-width:765px){
+    .media1{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .media2{
+        margin-bottom: 17px;
+        
+    }
+}
+
+  /**<!--***************Scroll button Ends************************** -->**/
+
+
+
+    
+
